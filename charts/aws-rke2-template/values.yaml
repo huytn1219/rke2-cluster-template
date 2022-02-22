@@ -10,4 +10,4 @@ cluster:
   annotations: {}
 
 # specify cloud credential secret name, do not need to be provided if using custom driver
-cloudCredentialSecretName: "amazonec2"
+cloudCredentialSecretName: ""
