@@ -4,8 +4,8 @@ kind: Amazonec2Config
 metadata:
   name: {{ $clustername }}-worker
   namespace: fleet-default
-instanceType: t3a.large
-region: us-west-2
+instanceType: t2.large
+region: us-west-1
 subnetId: subnet-0de5c6199e1e3553f
 vpcId: vpc-03e5a38fd31f777ed
 zone: a
