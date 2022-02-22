@@ -8,9 +8,6 @@ metadata:
 {{- if $nodepool.ami }}
 ami: {{ $nodepool.ami }}
 {{- end }}
-{{- if $nodepool.blockDurationMinutes }}
-blockDurationMinutes: {{ $nodepool.blockDurationMinutes }}
-{{- end }}
 {{- if $nodepool.deviceName }}
 deviceName: {{ $nodepool.deviceName }}
 {{- end }}
