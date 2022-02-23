@@ -2,6 +2,9 @@ cloudprovider: amazonec2
 
 cloudCredentialSecretName: ""
 
+cluster:
+  name: rke2
+
 # Specify nodepool options. Can add multiple node groups, specify etcd, controlplane and worker roles.
 nodepools:
 - etcd: true
