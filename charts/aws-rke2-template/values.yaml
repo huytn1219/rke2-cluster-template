@@ -5,6 +5,12 @@ cloudCredentialSecretName: ""
 cluster:
   name: rke2
 
+rke:
+  localClusterAuthEndpoint:
+    enabled: true
+    fqdn: ""
+    caCerts: ""
+
 # Specify nodepool options. Can add multiple node groups, specify etcd, controlplane and worker roles.
 nodepools:
 - etcd: true
