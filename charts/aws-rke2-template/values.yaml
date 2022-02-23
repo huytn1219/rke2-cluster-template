@@ -2,6 +2,8 @@ cloudprovider: amazonec2
 
 cloudCredentialSecretName: ""
 
+kubernetesVersion: v1.21.3-rc5+rke2r2
+
 cluster:
   name: rke2
 
