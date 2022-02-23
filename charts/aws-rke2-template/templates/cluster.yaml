@@ -56,9 +56,9 @@ spec:
       {{- end }}
       {{- end }}
     {{- end }}
+    {{- end }}
     controlPlaneConfig:
       cni: calico
-
     {{- if .Values.rke.localClusterAuthEndpoint.enabled }} 
     localClusterAuthEndpoint:
       enabled: {{ .Values.rke.localClusterAuthEndpoint.enabled }}
