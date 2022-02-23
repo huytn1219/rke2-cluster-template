@@ -72,7 +72,7 @@ spec:
         kind: DigitaloceanConfig
         {{- else if eq $.Values.cloudprovider "azure" }}
         kind: AzureConfig
-        {{- end}}
+        {{- end }}
       paused: {{ $nodepool.paused }}
       displayName: {{ $nodepool.displayName }}
       {{- if $nodepool.rollingUpdate }}
