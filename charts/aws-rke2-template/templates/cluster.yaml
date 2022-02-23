@@ -1,5 +1,5 @@
 {{- $clustername := .Values.cluster.name }}
-apiVersion: management.cattle.io/v3 
+apiVersion: provisioning.cattle.io/v1
 kind: Cluster
 metadata:
   {{- if .Values.cluster.labels }}
