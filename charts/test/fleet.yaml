@@ -1,0 +1,5 @@
+namespace: fleet-default
+
+helm:
+  releaseName: aws-rke2
+  chart: ""
